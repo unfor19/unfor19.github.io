@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div>
+  <a
+    class="github-button"
+    href="https://github.com/unfor19/unfor19.github.io"
+    data-icon="octicon-star"
+    data-size="large"
+    data-show-count="true"
+    aria-label="Star unfor19/unfor19.github.io on GitHub"
+    >Star</a
+  >
+
+  <!-- Place this tag where you want the button to render. -->
+  <a
+    class="github-button"
+    href="https://github.com/unfor19"
+    data-size="large"
+    data-show-count="true"
+    aria-label="Follow @unfor19 on GitHub"
+    >Follow @unfor19</a
+  >
+</div>
+<h1>{{ page.title }}</h1>
+<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+
+{{ content }}
+<script async defer src="https://buttons.github.io/buttons.js"></script>
